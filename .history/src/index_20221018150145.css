@@ -1,0 +1,108 @@
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar-center{
+  margin-inline: auto;
+}
+.navbar-center .page-selected{
+  color:white;
+  background: #f1356d;
+  border-radius: 8px;
+  pointer-events: none;
+}
+.navbar .navbar-right {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Home */
+.Home .profile-container{
+  height: 500px;
+}
+.Home .picture img{
+  border-radius: 50%;
+  max-width: 250px;
+}
+.Home .profile .MainName{
+  color:#5DADE2;
+}
+
+.Home .introduction{
+  margin-top: 60px;
+  margin-left: 200px;
+  float:left;
+  width: 600px;
+  
+}
+.Home .information{
+  margin: 50px;
+  float:right;
+}
+
+
+.Home .introduction h2{
+  color:#f1356d
+}
+.Home .introduction .context{
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+
+.Home .picture{
+  text-align: center;
+}
+
+.Home .contact{
+  margin-top: 20px;
+  margin-left:17px
+}
+
+.Home .contact div{
+  margin :5px;
+}
+
+.Home .contact span{
+  margin :5px;
+}
+
+
+.Home .contact a{
+  margin :5px;
+}
+
+.Home .contact a:hover{
+  font-size: 50px;
+  position: relative;
+}
+
+
+
+
+
