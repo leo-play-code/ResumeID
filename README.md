@@ -1,2 +1,4 @@
-## npm run server
-run this website
+## Run the website
+```
+npm run start
+```
